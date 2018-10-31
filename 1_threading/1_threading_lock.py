@@ -26,3 +26,5 @@ for i in range(100):
 for t in threads_list:
     t.join()
 print('finalnum:',num)
+
+
