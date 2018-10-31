@@ -1,0 +1,49 @@
+Tue, 18 Sep 2018 10:23:46 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:23:46 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:23:46 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:23:46 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:23:46 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:51:35 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:51:35 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:51:35 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:51:35 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:51:35 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:51:38 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:54:04 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:54:04 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:54:04 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:54:04 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:54:04 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:55:09 1_logging.py[line:14] DEBUG debug message
+Tue, 18 Sep 2018 10:55:09 1_logging.py[line:15] INFO info message
+Tue, 18 Sep 2018 10:55:09 1_logging.py[line:16] WARNING warning message
+Tue, 18 Sep 2018 10:55:09 1_logging.py[line:17] ERROR error message
+Tue, 18 Sep 2018 10:55:09 1_logging.py[line:18] CRITICAL critical message
+Tue, 18 Sep 2018 10:55:14 1_logging.py[line:11] DEBUG debug message
+Tue, 18 Sep 2018 10:55:14 1_logging.py[line:12] INFO info message
+Tue, 18 Sep 2018 10:55:14 1_logging.py[line:13] WARNING warning message
+Tue, 18 Sep 2018 10:55:14 1_logging.py[line:14] ERROR error message
+Tue, 18 Sep 2018 10:55:14 1_logging.py[line:15] CRITICAL critical message
+2018-09-18 11:20:15,025 - root - WARNING - logger warning message
+2018-09-18 11:20:15,025 - root - ERROR - logger error message
+2018-09-18 11:20:15,026 - root - CRITICAL - logger critical message
+2018-09-18 13:12:26,022 - root - DEBUG - logger debug message
+2018-09-18 13:12:26,063 - root - INFO - logger info message
+2018-09-18 13:12:26,063 - root - WARNING - logger warning message
+2018-09-18 13:12:26,064 - root - ERROR - logger error message
+2018-09-18 13:12:26,064 - root - CRITICAL - logger critical message
+2018-10-11 15:46:11,173 - root - DEBUG - logger debug message
+2018-10-11 15:46:11,200 - root - INFO - logger info message
+2018-10-11 15:46:11,200 - root - WARNING - logger warning message
+2018-10-11 15:46:11,200 - root - ERROR - logger error message
+2018-10-11 15:46:11,200 - root - CRITICAL - logger critical message
+2018-10-11 18:32:58,067 - root - DEBUG - logger debug message
