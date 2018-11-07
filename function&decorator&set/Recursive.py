@@ -9,7 +9,7 @@
 #     if n > 0:
 #         return jiec(n)
 #     else:return s
-# print(jiec(7))
+# print(jiec(5))
 
 # def recure(n):
 #     if n > 0:

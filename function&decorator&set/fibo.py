@@ -10,7 +10,6 @@ print(fibo(6))
 
 str = ['a', 'b', 'c', 'd']
 
-
 def fun1(s):
     if s != 'a':
         return s

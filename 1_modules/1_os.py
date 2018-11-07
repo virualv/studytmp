@@ -2,7 +2,7 @@
 # Time : 9/16/2018 1:59 PM
 import os
 
-# print(os.getcwd())    # 获取当前工作目录
+print(os.getcwd())    # 获取当前工作目录
 # os.chdir(r'C:\Windows')   #改变当前脚本工作目录；相当于shell下cd
 # print(os.getcwd())
 
@@ -29,7 +29,7 @@ import os
 # print(info)
 # print(info.st_size)
 print(os.sep)
-# s = os.sep        # 用吗os.sep代替\\或/,使程序再Linux和win上通用
+# s = os.sep        # 用os.sep代替\\或/,使程序再Linux和win上通用
 print(type(os.sep))
 # os.sep    # 输出操作系统特定的路径分隔符，win下为"\\",Linux下为"/"
 # print(os.linesep)  # 输出当前平台使用的行终止符，win下为"\r\n",Linux下为"\n"

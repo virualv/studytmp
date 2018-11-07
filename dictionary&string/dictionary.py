@@ -24,7 +24,7 @@
 # dic1 = {'name':'joy'}
 # dic1['age'] = 18
 # print(dic1)
-# ret = dic1.setdefault('age',32)     # 键存在，不改动，返回字典中的相应的键值
+# ret = dic1.setdefault('age',32)     # ******键存在，不改动，返回字典中的相应的键值
 # print(dic1,'\n',ret)
 # ret1 = dic1.setdefault('hobby','girl')  # 键不存在，在字典中增加新的键值对，并返回相应的值
 # print(dic1,'\n',ret1)
@@ -67,12 +67,14 @@
 # dic3.update(dic4)
 # print(dic3,'\n',dic4)
 
+
+#******************************************IMPORTANT*******************************************
 # dic6 = dict.fromkeys(['host1','host2','host3','host4'],'test')
 # print(dic6) # {'host1': 'test', 'host2': 'test', 'host3': 'test', 'host4': 'test'}
 
 # 排序
 # dic8 = {1:'553',8:'865',5:'96',6:'856',4:'852',7:'86'}
-# print(sorted(dic8))     # [1, 4, 5, 6, 7, 8]
+# print(sorted(dic8))     # [1, 4, 5, 6, 7, 8]      比较键的大小然后按键的大小排序
 # print(sorted(dic8.values()))        # ['553', '852', '856', '86', '865', '96']
 # print(sorted(dic8.items()))         # [(1, '553'), (4, '852'), (5, '96'), (6, '856'), (7, '86'), (8, '865')]
 

@@ -62,11 +62,11 @@ def print_info(*args,sex = 'male'):
     #     print('%s:%s'% (i,kwargs[i]))
 
 print_info(30)
-# 关于不定长参数的位置：*args放在左边，**kwargs参数放在右边
+# 关于不定长参数的位置：*args放在左边，**kwargs参数放在右边    ******重要
 # 如果有默认参数，放右边
 # def func(name,age = 22,*args,**kwargs)
 
-# 字典关键字传参,将字典用“**”拆解后再进行关键字传参的方式
+# 字典关键字传参,将字典用“**”拆解后再进行关键字传参的方式       ******重要
 # def function(name,job,_home):
 #     print('Name:',name)
 #     print("Job:",job)
@@ -77,7 +77,7 @@ print_info(30)
 #     print(args)
 # f(*[1,2,5],*[6,8,7])
 
-# 高阶函数
+# 高阶函数                                               ******重要
 # def f(n):
 #     return n*n
 # def foo(a,b,f):
@@ -87,7 +87,8 @@ print_info(30)
 # def f():
 #     print('ok')
 # foo = f
-# 1. 函数名可以进行赋值
+
+# 1. 函数名可以进行赋值                                    ******重要
 # 2. 函数名可以作为函数的参数，还可以作为函数的返回值。
 
 # def outer():

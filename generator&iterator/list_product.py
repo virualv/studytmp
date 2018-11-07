@@ -12,7 +12,7 @@
 
 # t = ['213',21,54]
 #
-# a,b = t
+# a,b,c = t
 # print(a)
 # print(b)
 

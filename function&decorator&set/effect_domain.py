@@ -20,18 +20,18 @@
 
 # print(o_count) #找不到
 
-count = 10
-
-def outer():
-    global count
-    count += 10
-    print(count)
-outer()
+# count = 10
+#
+# def outer():
+#     global count
+#     count += 10
+#     print(count)
+# outer()
 
 def outer1():
     count = 10      # enclosing
     def inner():
-        nonlocal count  
+        nonlocal count
         count = 20
         print(count)
     inner()

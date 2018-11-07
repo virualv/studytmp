@@ -16,6 +16,7 @@
 
 # print(set('ales')==set('alessse'))
 # print(set('show')<set('showl'))
-print(set('slax')<set('sjad'))
+# print(set('slax')<set('sjad'))
 
-print(set('have') and set('haveh'))
+print(set('have') and set('haveu'))
+print(set('have') or set('haveu'))

@@ -66,8 +66,8 @@
 #     sys.stdout.flush()
 #     time.sleep(0.5)
 # import time
-# for i in range(30):
-#     print('*',end='',flush=True)
+# for i in range(100):
+#     print(i+1,'%\n',end='',flush=True)
 #     time.sleep(0.2)
 
 # f = open('xcs','a',encoding='utf8')
