@@ -35,5 +35,5 @@ def _collect_(url):
     print('Get data size:%d bytes from %s' % (len(result),url))
 
 gevent.joinall([
-    gevent.spawn(_collect_,'https://www.mi.com')
+    gevent.spawn(_collect_,'http://jwc.wxc.edu.cn/*')
 ])

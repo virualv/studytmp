@@ -65,7 +65,7 @@ print("HelloWorld"[1:-1])   # 0为开始位
 # print('\tMy Title \n'.rstrip())
 # print('My Title'.replace('Ti','ac'))                        # 替换字符（串）
 # print('My title title'.rfind('t'))                          # 从右边开始找的第一个元素的位置，但位置是从做开始数的，第一个以0计数
-# print('My Title'.split())                                   # 将字符串分成列表
+print('My Title'.split())                                   # 将字符串分成列表
 # #  可用.join('','')的方式将列表转换成字符串
 # print('My title'.title())                                   # 转换为标题，每个单词首字母变大写
 
