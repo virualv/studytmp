@@ -2,7 +2,8 @@
 # Author  : virualv
 import pymysql
 conn = pymysql.connect(host = '127.0.0.1',port = 3306,user = 'joy',passwd = 'hzy122925',db = 'sqltest',charset = 'utf8')
-cursor = conn.cursor()
+# cursor = conn.cursor()
+
 # inp = input('inp >>>')
 # raw = cursor.execute('insert into teacher (tname) value (%s)',inp)
 # conn.commit()
@@ -53,9 +54,16 @@ cursor = conn.cursor()
 
 
 #### FBI Warning
-sql = "select * from student where sname = '%s' and sid = '%s'"
-sql = sql % ('张二" or 1=1 -- ',56)
-cursor.execute(sql)
-print(cursor.fetchone())
-cursor.close()
-conn.close()
+# sql = "select * from student where sname = '%s' and sid = '%s'"
+# sql = sql % ('张二" or 1=1 -- ',56)
+# cursor.execute(sql)
+# print(cursor.fetchone())
+# cursor.close()
+# conn.close()
+
+
+# 存储过程
+
+cursor = conn.cursor(cursor= pymysql.cursors.DictCursor)
+
+cursor.callproc('')
