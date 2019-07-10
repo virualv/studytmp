@@ -36,6 +36,6 @@ print(hasattr(obj,'name'))  #检测是否有
 
 # setattr(obj,'k','keyvalue')
 # print(obj.k)
-# obj.name
-# delattr(obj,'name')
-# obj.name
+obj.name
+delattr(obj,'name')
+obj.name

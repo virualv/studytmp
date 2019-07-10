@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div{
+            color: blue;
+            background-color: aqua;
+            font-size: 30px;
+        }
+        #d1{
+            color: black;
+            background-color: aquamarine;
+        }
+        .git{
+            color: gold;
+            background-color: aliceblue;
+        }
+        div p{          /*后代选择器*/
+            color: yellow;
+            font-size: 60px;
+
+        }
+        #outer .github{     /*后代选择器*/
+            color: black;
+            text-align: center;
+            background-color: dimgrey;
+        }
+        #p2,#p3,.github{    /*并列选择器*/
+            color: blueviolet;
+            background-color: dimgrey;
+        }
+        #outer+p{    /*并列选择器*/
+            color: brown;
+            background-color: antiquewhite;
+        }
+
+    </style>
+    <title>Test</title>
+</head>
+<p class="j2">Joukit</p>
+<body>
+    <div id="d1"></div>
+    <div>MONO-Home</div>
+    <div>
+        <p>Loof</p>
+    </div>
+    Bit
+    <div class="git">BitCoin</div>
+    <hr/>
+    <div id="outer">
+        Hello
+        <p id="p">GitHub</p>
+        <p class="github">GitHub</p>
+        <div class="gith">
+            <p class="github">GitHub</p>
+        </div>
+        <p class="git">GitHub</p>
+    </div>
+
+    <div id="p3">Huawei</div>
+    <div id="p2">Honnor</div>
+</body>
+</html>

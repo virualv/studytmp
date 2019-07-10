@@ -3,7 +3,7 @@
 
 import socket
 
-address = ('192.168.31.149',9999) # set ip address and port
+address = ('127.0.0.1',9999) # set ip address and port
 
 sk = socket.socket()
 

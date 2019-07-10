@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MU</title>
+    <style>
+        .title{
+            float: left;
+            height: 1080px;
+            width: 40%;
+            background-color: grey;
+        }
+        .content{
+            float: left;
+            height: 1080px;
+            width: 60%;
+            background-color: cornflowerblue;
+        }
+        .so{
+            background-color: white;
+        }
+        .hit{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="item">
+    <div class="title">
+        <div class="mu" onclick="show1(this)">菜单一
+            <div class="so hit">
+                <div>111</div>
+                <div>111</div>
+                <div>111</div>
+            </div>
+         </div>
+        <div class="mu" onclick="show1(this)">菜单二
+            <div class="so hit">
+                <div>222</div>
+                <div>222</div>
+                <div>222</div>
+            </div>
+        </div>
+        <div class="mu" onclick="show1(this)">菜单三
+            <div class="so hit">
+                <div>333</div>
+                <div>333</div>
+                <div>333</div>
+            </div>
+         </div>
+    </div>
+    <div class="content">
+        <h1>HOME1</h1>
+        <h5>xiaojian</h5>
+        <h1>HOME2</h1>
+        <h5>moke</h5>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    function show1(self) {
+        $(self).children(".so").removeClass("hit");
+        $(self).siblings().children(".so").addClass("hit")
+    }
+</script>
+</html>

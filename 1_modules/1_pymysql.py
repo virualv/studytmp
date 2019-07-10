@@ -53,7 +53,7 @@ conn = pymysql.connect(host = '127.0.0.1',port = 3306,user = 'joy',passwd = 'hzy
 # print(cursor.fetchone())
 
 
-#### FBI Warning
+#### FBI Warning  # 防止sql注入
 # sql = "select * from student where sname = '%s' and sid = '%s'"
 # sql = sql % ('张二" or 1=1 -- ',56)
 # cursor.execute(sql)

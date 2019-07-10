@@ -5,3 +5,25 @@
     1.减少重复代码
     2.方便修改，更易扩展
     3.保持代码的一致性
+
+例：
+import time
+times = time.strftime("%Y-%h-%d")
+def t():
+    print("This time is %s" % times)
+t()
+
+
+
+# def go(*args):
+#     for i in args:
+#         print(i)
+#
+# go(1,2,3,5,4,8,6,8,7)
+
+def goo(**kwargs):
+    # print("name : %s" % kwargs)
+    print(kwargs)
+
+# goo(name="samsung",game="kedi")
+goo(**(2)) # TypeError: goo() argument after ** must be a mapping, not int
